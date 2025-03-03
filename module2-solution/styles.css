@@ -42,8 +42,11 @@ h1 {
 
 /********** Desktop only **********/
 @media (min-width: 992px) {
+   .container {
+    display: flex;
+    justify-content: space-between; /* Space out sections evenly */
+  }
   .section {
-    float: left;
     border: 1px solid green;
     width: calc(33.33% - 20px); /* Equal width for 3 sections */
   }
@@ -51,13 +54,16 @@ h1 {
 
 /********** Tablet only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-   #section1, #section2 {
-    float: left;
+  .container {
+    display: flex;
+    flex-wrap: wrap; /* Allow sections to wrap to the next row */
+  } 
+  #section1, #section2 {
     width: calc(50% - 20px); /* Equal width for first 2 sections */
   }
   #section3 {
-    clear: both; /* Move to the next row */
     width: calc(100% - 20px);
+    margin-top: 20px; /* Add margin to separate from the row above */
   }
 }
 
