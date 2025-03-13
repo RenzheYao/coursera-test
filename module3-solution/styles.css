@@ -32,19 +32,18 @@
   font-weight: bold;
 }
 
-.tall-section {
-  height: 1000px;
+.menu-section {
   background-color: #f0f0f0;
   padding: 20px;
-  margin-top: 20px;
-}
-
-.tall-section h2 {
-  text-align: center;
   margin-bottom: 20px;
+  border: 1px solid #ddd;
 }
 
-.tall-section p {
+.menu-section h2 {
+  margin-top: 0;
+}
+
+.menu-section p {
   font-size: 16px;
   line-height: 1.6;
 }
