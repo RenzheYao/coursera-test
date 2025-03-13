@@ -30,7 +30,7 @@
 }
 
 .navbar-nav .nav-item {
-  padding: 10px 0; /* Add padding for better spacing */
+  padding: 0; /* Remove padding from nav items */
 }
 
 .navbar-nav .nav-link {
@@ -38,7 +38,8 @@
   font-weight: bold; /* Bold text for menu items */
   background-color: #ffffff; /* White background for menu items */
   border: 1px solid #808080; /* Grey border for menu items */
-  margin: none; /* Add spacing between menu items */
+  margin: 0; /* Remove margin between menu items */
+  padding: 10px 0; /* Add padding inside menu items */
 }
 
 .navbar-nav .nav-link:hover {
@@ -56,3 +57,10 @@
 .menu-section h2 {
   margin-top: 0; /* Remove default margin for headings */
   color: #000; /* Black text for headings */
+}
+
+.menu-section p {
+  font-size: 16px; /* Set font size for paragraphs */
+  line-height: 1.6; /* Improve readability with line height */
+  color: #000; /* Black text for paragraphs */
+}
