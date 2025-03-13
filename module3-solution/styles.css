@@ -6,20 +6,20 @@
 
 .navbar-brand {
   font-weight: bold;
-  color: #333 !important;
+  color: #fff !important; /* White text for better contrast */
 }
 
 .navbar-toggle {
-  border-color: #333;
+  border-color: #fff; /* White border for the toggle button */
 }
 
 .navbar-toggle .icon-bar {
-  background-color: #333;
+  background-color: #fff; /* White icon bars for the toggle button */
 }
 
 .navbar-collapse {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #808080; /* Grey background for the collapsed menu */
+  border-color: #808080; /* Grey border for the collapsed menu */
 }
 
 .navbar-collapse ul {
@@ -28,7 +28,7 @@
 }
 
 .navbar-collapse ul li a {
-  color: #333 !important;
+  color: #fff !important; /* White text for menu items */
   font-weight: bold;
 }
 
