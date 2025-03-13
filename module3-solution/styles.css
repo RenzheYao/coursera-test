@@ -47,6 +47,7 @@
 
 .navbar-nav .nav-link:hover {
   background-color: #f0f0f0 !important; /* Light grey background on hover */
+  border: grey;
 }
 
 /* Menu Sections Styling */
