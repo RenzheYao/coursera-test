@@ -1,6 +1,6 @@
 /* Custom CSS */
 /* Navbar Styling */
-.navbar.navbar-default {
+.navbar {
   background-color: #808080 !important; /* Grey background for the navbar */
   border: none !important; /* Remove default border */
 }
