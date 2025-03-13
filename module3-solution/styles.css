@@ -34,12 +34,12 @@
 }
 
 .navbar-nav .nav-link {
-  color: #fff !important; /* White text for menu items */
+  color: #000 !important; /* black text for menu items */
   font-weight: bold; /* Bold text for menu items */
 }
 
 .navbar-nav .nav-link:hover {
-  background-color: #666 !important; /* Darker grey background on hover */
+  background-color: #fff !important; /* white background on hover */
 }
 
 /* Menu Sections Styling */
