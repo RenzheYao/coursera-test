@@ -5,7 +5,7 @@
   border: none; /* Remove default border */
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
   font-weight: bold;
   color: #000 !important; /* Black text for the brand */
 }
