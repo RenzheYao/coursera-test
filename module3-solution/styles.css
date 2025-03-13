@@ -52,11 +52,11 @@
 
 .menu-section h2 {
   margin-top: 0; /* Remove default margin for headings */
-  color: #000; /* White text for headings */
+  color: #000; /* black text for headings */
 }
 
 .menu-section p {
   font-size: 16px; /* Set font size for paragraphs */
   line-height: 1.6; /* Improve readability with line height */
-  color: #000; /* White text for paragraphs */
+  color: #000; /* black text for paragraphs */
 }
