@@ -39,7 +39,7 @@
   background-color: #ffffff; /* White background for menu items */
   border: 1px solid #808080; /* Grey border for menu items */
   margin: 0; /* Remove margin between menu items */
-  padding: 10px 0; /* Add padding inside menu items */
+  padding: 0px 0; /* Add padding inside menu items */
 }
 
 .navbar-nav .nav-link:hover {
