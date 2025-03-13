@@ -19,12 +19,6 @@
   border-color: #000 !important; /* Black border for the toggle button */
 }
 
-@media (max-width:767px){
-  .navbar-toggler{
-    display: block;
-  }
-}
-
 /* Collapsed Menu Styling */
 .navbar-collapse {
   background-color: #ffffff; /* White background for the collapsed menu */
@@ -62,10 +56,3 @@
 .menu-section h2 {
   margin-top: 0; /* Remove default margin for headings */
   color: #000; /* Black text for headings */
-}
-
-.menu-section p {
-  font-size: 16px; /* Set font size for paragraphs */
-  line-height: 1.6; /* Improve readability with line height */
-  color: #000; /* Black text for paragraphs */
-}
