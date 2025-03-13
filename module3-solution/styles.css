@@ -1,1 +1,50 @@
+/* Custom CSS */
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
 
+.navbar-brand {
+  font-weight: bold;
+  color: #333 !important;
+}
+
+.navbar-toggle {
+  border-color: #333;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #333;
+}
+
+.navbar-collapse {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+.navbar-collapse ul {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-collapse ul li a {
+  color: #333 !important;
+  font-weight: bold;
+}
+
+.tall-section {
+  height: 1000px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.tall-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tall-section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
