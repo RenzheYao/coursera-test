@@ -19,6 +19,12 @@
   border-color: #000 !important; /* Black border for the toggle button */
 }
 
+@media (max-width:767px){
+  .navbar-toggler{
+    display: block;
+  }
+}
+
 /* Collapsed Menu Styling */
 .navbar-collapse {
   background-color: #ffffff; /* White background for the collapsed menu */
