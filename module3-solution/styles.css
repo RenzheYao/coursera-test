@@ -7,15 +7,15 @@
 
 .navbar-brand {
   font-weight: bold;
-  color: #fff !important; /* White text for the brand */
+  color: #000 !important; /* Black text for the brand */
 }
 
 .navbar-toggler {
-  border-color: #fff; /* White border for the toggle button */
+  border-color: #000; /* Black border for the toggle button */
 }
 
 .navbar-toggler-icon {
-  background-color: #fff; /* White color for the hamburger icon */
+  background-color: #000; /* Black color for the hamburger icon */
 }
 
 /* Collapsed Menu Styling */
