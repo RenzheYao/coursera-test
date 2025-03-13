@@ -1,7 +1,7 @@
 /* Custom CSS */
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #808080; /* Grey background color */
+  border-color: #808080; /* Grey border color */
 }
 
 .navbar-brand {
