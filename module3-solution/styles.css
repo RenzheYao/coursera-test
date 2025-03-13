@@ -38,7 +38,7 @@
   font-weight: bold; /* Bold text for menu items */
   background-color: #ffffff; /* White background for menu items */
   border: 1px solid #808080; /* Grey border for menu items */
-  margin: 2px 0; /* Add spacing between menu items */
+  margin: none; /* Add spacing between menu items */
 }
 
 .navbar-nav .nav-link:hover {
