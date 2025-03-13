@@ -1,7 +1,7 @@
 /* Custom CSS */
 /* Navbar Styling */
 .navbar {
-  background-color: #333; /* Dark grey background for the navbar */
+  background-color: #808080; /* Grey background for the navbar */
   border: none; /* Remove default border */
 }
 
@@ -12,11 +12,11 @@
 
 /* Custom CSS for the hamburger icon */
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28128, 128, 128, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-toggler {
-  border-color: #808080; /* Grey border for the toggle button */
+  border-color: #000; /* Black border for the toggle button */
 }
 
 /* Collapsed Menu Styling */
@@ -44,7 +44,7 @@
 
 /* Menu Sections Styling */
 .menu-section {
-  background-color: #808080; 
+  background-color: #808080; /* Grey background for menu sections */
   padding: 20px; /* Add padding inside the sections */
   margin-bottom: 20px; /* Add margin between sections */
   border: 1px solid #ddd; /* Add a light border */
@@ -52,11 +52,11 @@
 
 .menu-section h2 {
   margin-top: 0; /* Remove default margin for headings */
-  color: #333; /* Dark grey text for headings */
+  color: #fff; /* White text for headings */
 }
 
 .menu-section p {
   font-size: 16px; /* Set font size for paragraphs */
   line-height: 1.6; /* Improve readability with line height */
-  color: #555; /* Dark grey text for paragraphs */
+  color: #fff; /* White text for paragraphs */
 }
