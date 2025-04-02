@@ -1,0 +1,68 @@
+/* Custom CSS */
+/* Navbar Styling */
+.navbar {
+  background-color: #808080; /* Grey background for the navbar */
+  border: none; /* Remove default border */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #000 !important; /* Black text for the brand */
+}
+
+/* Custom CSS for the hamburger icon */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  border-color: #000 !important; /* Black border for the toggle button */
+}
+
+/* Collapsed Menu Styling */
+.navbar-collapse {
+  background-color: #ffffff; /* White background for the collapsed menu */
+  padding: 0 !important; /* Remove padding from the collapsed menu */
+}
+
+.navbar-nav {
+  width: 100%; /* Full width for the menu items */
+  text-align: center; /* Center-align menu items */
+  margin: 0 !important; /* Remove margin from the nav */
+}
+
+.navbar-nav .nav-item {
+  padding: 0; /* Remove padding from nav items */
+}
+
+.navbar-nav .nav-link {
+  color: #000 !important; /* Black text for menu items */
+  font-weight: bold; /* Bold text for menu items */
+  background-color: #ffffff; /* White background for menu items */
+  border: 1px solid #808080; /* Grey border for menu items */
+  margin: 0; /* Remove margin between menu items */
+  padding: 20px 0; /* Increase padding to make menu items taller */
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #f0f0f0 !important; /* Light grey background on hover */
+}
+
+/* Menu Sections Styling */
+.menu-section {
+  background-color: #808080; /* Grey background for menu sections */
+  padding: 20px; /* Add padding inside the sections */
+  margin-bottom: 20px; /* Add margin between sections */
+  border: 1px solid #ddd; /* Add a light border */
+}
+
+.menu-section h2 {
+  margin-top: 0; /* Remove default margin for headings */
+  color: #000; /* Black text for headings */
+}
+
+.menu-section p {
+  font-size: 16px; /* Set font size for paragraphs */
+  line-height: 1.6; /* Improve readability with line height */
+  color: #000; /* Black text for paragraphs */
+}
