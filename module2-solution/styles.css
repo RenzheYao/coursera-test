@@ -1,0 +1,87 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+  
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.75em; /* 75% larger than dummy text */
+}
+
+.container {
+  padding: 10px;
+}
+  
+.section {
+  position: relative;
+  background-color: #f4f4f4;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 40px 15px 15px 15px; /* Push text down to avoid overlapping title */
+}
+
+.section-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 20px;
+  border: 1px solid black;
+  font-size: 1.25em; /* 25% larger than dummy text */
+  background-color: #d3d3d3;
+}  
+  
+
+
+/********** Desktop only **********/
+@media (min-width: 992px) {
+   .container {
+    display: flex;
+    justify-content: space-between; /* Space out sections evenly */
+  }
+  .section {
+    border: 1px solid green;
+    width: calc(33.33% - 20px); /* Equal width for 3 sections */
+  }
+}
+
+/********** Tablet only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap; /* Allow sections to wrap to the next row */
+  } 
+  #section1, #section2 {
+    width: calc(50% - 20px); /* Equal width for first 2 sections */
+  }
+  #section3 {
+    width: calc(100% - 20px);
+    margin-top: 20px; /* Add margin to separate from the row above */
+  }
+}
+
+/********** Mobile only **********/
+@media (max-width: 767px) {
+ .section {
+    width: calc(100% - 20px); /* Full width for all sections */
+  } 
+}
+
+/* Optional: Add unique background colors for section titles */
+#title1 {
+  background-color: #ffcccb; /* Light red */
+}
+#title2 {
+  background-color: #ff6666; /* Darker red */
+  color: white; /* Ensure text is readable */
+}
+#title3 {
+  background-color: #ffcc99; /* Light orange */
+}
